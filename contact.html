@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact Us | FKTEN UniMAP</title>
+  <meta name="description" content="Contact the Faculty of Electronic Engineering & Technology (FKTEN), Universiti Malaysia Perlis, Pauh Putra Campus, Arau, Perlis.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="contact">
+  <div id="site-header"></div>
+
+  <main>
+    <section class="page-hero">
+      <div class="page-hero__bg" style="background-image:url('https://fkten.unimap.edu.my/fkten2026/img/fkten/unimap1.webp')"></div>
+      <div class="wrap" style="padding-bottom:120px">
+        <nav class="crumbs" aria-label="Breadcrumb"><a href="index.html">Home</a><span aria-hidden="true">/</span><span>Contact Us</span></nav>
+        <span class="eyebrow">Get in Touch</span>
+        <h1>We're here to help</h1>
+        <p>Questions about programmes, admissions, research collaboration or facility bookings? Contact the faculty office.</p>
+      </div>
+    </section>
+
+    <div class="wrap contact-cards">
+      <div class="grid grid--3">
+        <div class="contact-card">
+          <div class="icon-box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></svg></div>
+          <h3>Call us</h3>
+          <p><a href="tel:+6049885509">+604-988 5509</a> / <a href="tel:+6049885515">5515</a><br>Fax: +604-988 5510</p>
+        </div>
+        <div class="contact-card">
+          <div class="icon-box icon-box--blue"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></svg></div>
+          <h3>Email us</h3>
+          <p>General: <a href="mailto:fkten@unimap.edu.my">fkten@unimap.edu.my</a><br>Postgraduate: <a href="mailto:pascasiswazah_FKTEN@unimap.edu.my">pascasiswazah_FKTEN@unimap.edu.my</a></p>
+        </div>
+        <div class="contact-card">
+          <div class="icon-box icon-box--gold"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
+          <h3>Visit us</h3>
+          <p>FKTEN, Universiti Malaysia Perlis, Pauh Putra Campus, 02600 Arau, Perlis, Malaysia</p>
+        </div>
+      </div>
+    </div>
+
+    <section class="section">
+      <div class="wrap split" style="align-items:stretch">
+        <div>
+          <span class="eyebrow">Send an Enquiry</span>
+          <h2>Write to the faculty office</h2>
+          <p style="color:var(--muted)">We usually reply within two working days.</p>
+          <form class="form" onsubmit="event.preventDefault(); this.querySelector('button').textContent='Prototype: form not connected';">
+            <div class="form-row">
+              <div class="field"><label for="name">Full name</label><input id="name" type="text" placeholder="Your name"></div>
+              <div class="field"><label for="email">Email</label><input id="email" type="email" placeholder="you@example.com"></div>
+            </div>
+            <div class="form-row">
+              <div class="field"><label for="phone">Phone (optional)</label><input id="phone" type="tel" placeholder="+60"></div>
+              <div class="field"><label for="topic">Topic</label>
+                <select id="topic"><option>Undergraduate admission</option><option>Postgraduate admission</option><option>Research collaboration</option><option>Facility booking</option><option>Industrial training</option><option>Other</option></select></div>
+            </div>
+            <div class="field"><label for="msg">Message</label><textarea id="msg" placeholder="How can we help?"></textarea></div>
+            <div><button class="btn btn--red" type="submit">Send Message</button></div>
+          </form>
+        </div>
+        <div class="map">
+          <iframe title="Map of UniMAP Pauh Putra Campus" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+            src="https://www.google.com/maps?q=Universiti+Malaysia+Perlis+Pauh+Putra+Campus&output=embed"></iframe>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--silver" id="departments">
+      <div class="wrap">
+        <div class="section-head">
+          <span class="eyebrow">Departments &amp; Units</span>
+          <h2>Who to contact</h2>
+        </div>
+        <div class="grid grid--2">
+          <div class="card dept"><div class="icon-box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2 3 14h9l-1 8 10-12h-9l1-8z"/></svg></div>
+            <div><h3>Department of Applied Electronics</h3><small>Jabatan Elektronik Gunaan</small><p>Applied electronic systems, communication engineering, embedded systems and engineering technology programmes.</p></div></div>
+          <div class="card dept"><div class="icon-box icon-box--blue"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="2"/><rect x="9" y="9" width="6" height="6"/><path d="M9 1v3M15 1v3M9 20v3M15 20v3M20 9h3M20 14h3M1 9h3M1 14h3"/></svg></div>
+            <div><h3>Department of Semiconductor Electronics</h3><small>Jabatan Elektronik Semikonduktor</small><p>Microelectronics, VLSI design, photonics, semiconductor fabrication and biomedical electronic engineering.</p></div></div>
+          <div class="card dept"><div class="icon-box icon-box--gold"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.9M16 3.1a4 4 0 0 1 0 7.8"/></svg></div>
+            <div><h3>Industry Network &amp; Quality Management</h3><small>Jaringan Industri &amp; Pengurusan Kualiti (JIPK)</small><p>Industry linkages, quality assurance, accreditation and external partnership programmes.</p></div></div>
+          <div class="card dept"><div class="icon-box icon-box--navy"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10 12 5 2 10l10 5 10-5z"/><path d="M6 12v5c3 2 9 2 12 0v-5"/></svg></div>
+            <div><h3>Postgraduate Office</h3><small>Pascasiswazah FKTEN</small><p>MSc and PhD admissions, supervision matching and research student matters. <a href="mailto:pascasiswazah_FKTEN@unimap.edu.my">Email the office</a>.</p></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--navy circuit" id="directory">
+      <div class="wrap">
+        <div class="section-head">
+          <span class="eyebrow">Staff Directory</span>
+          <h2>Find a staff member</h2>
+          <p>Search by name, department or programme, or browse alphabetically.</p>
+        </div>
+        <form class="staff-search" onsubmit="event.preventDefault()">
+          <input type="search" placeholder="Type a staff name…" aria-label="Search staff">
+          <button class="btn btn--red btn--sm" type="submit">Search</button>
+        </form>
+        <div class="az" aria-label="Browse A to Z">
+          <a href="#">A</a><a href="#">B</a><a href="#">C</a><a href="#">D</a><a href="#">E</a><a href="#">F</a><a href="#">G</a><a href="#">H</a><a href="#">I</a><a href="#">J</a><a href="#">K</a><a href="#">L</a><a href="#">M</a><a href="#">N</a><a href="#">O</a><a href="#">P</a><a href="#">Q</a><a href="#">R</a><a href="#">S</a><a href="#">T</a><a href="#">U</a><a href="#">V</a><a href="#">W</a><a href="#">X</a><a href="#">Y</a><a href="#">Z</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div id="site-footer"></div>
+  <script src="js/main.js"></script>
+</body>
+</html>
